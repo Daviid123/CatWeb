@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cat Stories</title>
     <link rel="stylesheet" href="assets/styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
 <header>
@@ -17,15 +18,20 @@
         </div>
         <ul class="nav-links">
             <li class="nav-link">
-                <a href="">Home</a>
+                <a href="#">Home</a>
             </li>
             <li class="nav-link">
-                <a href="">Home</a>
+                <a href="#">About</a>
             </li>
             <li class="nav-link">
-                <a href="">Home</a>
+                <a href="#">Blog</a>
             </li>
         </ul>
+        <div class="hamburger-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
     </nav>
     <div class="welcome-section">
         <div class="welcome-text">
@@ -48,21 +54,21 @@
                     <h3>Cat Cafe</h3>
                     <p>Etiam erat velit scelerisque in dictum non consectetur. Nisl purus in mollis nunc sed id semper.
                         Cras fermentum odio eu feugiat pretium nibh ipsum. Tristique senectus.</p>
-                    <a class="more-link" href="">more</a>
+                    <a class="more-link" href="#">more</a>
                 </article>
                 <article class="cat-service-item">
                     <img src="assets/images/cat_care.jpg" alt="Cat Care">
                     <h3>Cat Care</h3>
                     <p>Etiam erat velit scelerisque in dictum non consectetur. Nisl purus in mollis nunc sed id semper.
                         Cras fermentum odio eu feugiat pretium nibh ipsum. Tristique senectus.</p>
-                    <a class="more-link" href="">more</a>
+                    <a class="more-link" href="#">more</a>
                 </article>
                 <article class="cat-service-item">
                     <img src="assets/images/pet_guide.jpg" alt="Pet Guide">
                     <h3>Pet Guide</h3>
                     <p>Etiam erat velit scelerisque in dictum non consectetur. Nisl purus in mollis nunc sed id semper.
                         Cras fermentum odio eu feugiat pretium nibh ipsum. Tristique senectus.</p>
-                    <a class="more-link" href="">more</a>
+                    <a class="more-link" href="#">more</a>
                 </article>
             </div>
         </div>
@@ -92,8 +98,43 @@
     </section>
     <section>
         <div class="white-section">
-
+            <div class="pet-categories">
+                <div class="category-grid">
+                    <div class="category-card">
+                        <h3>PET GUIDE</h3>
+                        <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                        <a href="#" class="more-small">MORE</a>
+                    </div>
+                    <div class="category-card">
+                        <h3>TOP TIPS</h3>
+                        <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                        <a href="#" class="more-small">MORE</a>
+                    </div>
+                    <div class="category-card">
+                        <h3>BEST TOYS</h3>
+                        <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                        <a href="#" class="more-small">MORE</a>
+                    </div>
+                    <div class="category-card">
+                        <h3>CAT PRODUCTS</h3>
+                        <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                        <a href="#" class="more-small">MORE</a>
+                    </div>
+                    <div class="category-card">
+                        <h3>CAT LOVERS</h3>
+                        <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                        <a href="#" class="more-small">MORE</a>
+                    </div>
+                    <div class="category-card">
+                        <h3>GIFTS FOR CATS</h3>
+                        <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+                        <a href="#" class="more-small">MORE</a>
+                    </div>
+                </div>
+            </div>
         </div>
+        
+        <!-- "Why do we love cats" gallery section -->
         <div class="gallery-section">
             <div class="gallery-items">
                 <div class="gallery-item">
@@ -108,14 +149,78 @@
                 <div class="gallery-item">
                     <h3>Why do we love cats?</h3>
                     <p>Adipiscing bibendum est ultricies integer quis auctor elit. Eget nunc scelerisque viverra mauris in. Volutpat est velit egestas dui id. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Nulla pharetra diam sit amet nisl. Lorem ipsum dolor sit amet consectetur adipiscing elit. Tempus quam pellentesque nec nam aliquam sem et. Nunc</p>
-                    <button class="btn">readmore</button>
+                    <button class="btn">read more</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- "Get the greatest stories" newsletter section -->
+        <div class="newsletter">
+            <div class="newsletter-content">
+                <img src="assets/images/cat_face.jpg" alt="Cat face" class="newsletter-img">
+                <h2>Get the greatest stories right in your mailbox</h2>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Enter a valid email address">
+                    <button class="btn-submit">SUBMIT</button>
+                </div>
+                <p>And don't worry, we hate spam too! You can unsubscribe at anytime.</p>
+                <p class="credit">Image from <a href="#">Freepik</a></p>
+            </div>
+        </div>
+        
+        <!-- "Keeping Pets Happy" section -->
+        <div class="pet-happiness">
+            <div class="happiness-content">
+                <div class="happiness-text">
+                    <h2>Keeping Pets Happy</h2>
+                    <p>Cras adipiscing enim eu turpis egestas pretium aenean pharetra magna. Tempus urna et pharetra pharetra massa massa ultricies mi quis. Ut faucibus pulvinar elementum integer enim neque volutpat. Augue mauris augue neque gravida in. Venenatis cras sed felis eget velit aliquet sagittis. Morbi leo urna molestie at.</p>
+                    <p class="credit">Image from <a href="#">Freepik</a></p>
+                    <button class="btn-dark">READ MORE</button>
+                </div>
+                <div class="happiness-image">
+                    <img src="assets/images/cat_person.jpg" alt="Person with cat">
+                </div>
+            </div>
+        </div>
+        
+        <!-- "Need Help" contact form -->
+        <div class="contact-form">
+            <div class="contact-wrapper">
+                <div class="contact-text">
+                    <h2>Need Help?</h2>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    </div>
+                </div>
+                <div class="form-fields">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Enter your Name">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group half">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" placeholder="Enter your phone number">
+                        </div>
+                        <div class="form-group half">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Enter a valid email address">
+                        </div>
+                    </div>
+                    <button class="btn-submit">SUBMIT</button>
                 </div>
             </div>
         </div>
     </section>
 </main>
 <footer>
-
+    <div class="footer-bottom">
+        <p>&copy; 2025 Cat Stories. All rights reserved.</p>
+    </div>
 </footer>
 </body>
 </html>
