@@ -1,6 +1,6 @@
 :root {
     --primary-color: #000000;
-    --secondary-color: #ffffff; /* Opraveno - bylo #ffff */
+    --secondary-color: #ffffff;
     --light-brown: #59504c;
     --dark-brown: #333333;
     --light-grey: #ded9d7;
@@ -18,7 +18,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Navigation */
+/* Navigace */
 .main-menu {
     display: flex;
     justify-content: space-between;
@@ -68,7 +68,7 @@ body {
     transition: 0.4s;
 }
 
-/* Welcome Section */
+/* Vítající sekce */
 .welcome-section {
     background-image: url("../images/background_cat.jpg");
     background-position: center;
@@ -97,7 +97,7 @@ body {
     text-transform: uppercase;
 }
 
-/* About Section */
+/* About sekce */
 .about-section {
     text-align: center;
     background: var(--light-grey);
@@ -117,7 +117,7 @@ body {
     margin: 0 auto;
 }
 
-/* Cat Service Section */
+/* Cat Service sekce */
 .cat-container {
     background-color: var(--light-brown);
     padding-bottom: 200px;
@@ -193,7 +193,7 @@ body {
     background: var(--dark-brown);
 }
 
-/* Bright Section */
+/* Bright sekce */
 .bright-section {
     position: relative;
     z-index: 10;
@@ -289,7 +289,7 @@ body {
     transform: translateY(-2px);
 }
 
-/* White Section with Categories */
+/* Bílá sekce s kategoriemi */
 .white-section {
     background: var(--secondary-color);
     padding: 60px 0;
@@ -350,7 +350,7 @@ body {
     width: 80%;
 }
 
-/* Pet Happiness Section */
+/* Pet Happiness sekce */
 .pet-happiness {
     max-width: 1200px;
     margin: 80px auto;
@@ -416,7 +416,7 @@ body {
     background-color: var(--light-brown);
 }
 
-/* Contact Form Section */
+/* Contact Form sekce */
 .contact-form {
     background-color: var(--light-grey);
     padding: 60px 0;
@@ -510,7 +510,7 @@ body {
     background-color: var(--light-brown);
 }
 
-/* Gallery Section */
+/* Gallery sekce */
 .gallery-section {
     display: flex;
     justify-content: center;
@@ -561,7 +561,7 @@ body {
     margin-bottom: 20px;
 }
 
-/* Newsletter section */
+/* Newsletter sekce */
 .newsletter {
     background-color: var(--medium-brown);
     color: var(--secondary-color);
@@ -620,7 +620,7 @@ body {
     text-decoration: underline;
 }
 
-/* Footer bottom */
+/* Footer sekce */
 .footer-bottom {
     background-color: var(--dark-brown);
     color: var(--secondary-color);
@@ -628,7 +628,7 @@ body {
     padding: 20px;
 }
 
-/* Mobile Responsive Styles */
+/* Styly pro mobilní responzivitu */
 @media (max-width: 1200px) {
     .casual-cat-image img {
         left: 10%;
